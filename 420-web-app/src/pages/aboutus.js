@@ -13,15 +13,21 @@ export default function AboutUs() {
         display: "flex",
         justifyContent: "center",
         flexDirection: "column",
-        color:'rgb(68,68,68)'
       }}
     >
-      <h1 style={{marginTop:30}}>A Bit About Us!</h1>
+      <h1 style={{ marginTop: 30 }}>A Bit About Us!</h1>
 
       <div style={{ padding: 30 }}>
-        <img src={selu} height="375" width="800"/>
+        <img src={selu} height="375" width="800" />
       </div>
-      <div style={{ width: "900px", textAlign: "left", marginLeft:'auto', marginRight: 'auto' }}>
+      <div
+        style={{
+          width: "900px",
+          textAlign: "left",
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+      >
         <p>
           With 500+ students and the enrollment that has more than doubled over
           the past decade, Southeastern's highly-regarded Computer Science and
@@ -42,17 +48,41 @@ export default function AboutUs() {
         <img src={envoc} height="375" width="750" />
       </div>
       <h1>Highlights:</h1>
-      <div style={{ width: "900px", textAlign: "left", marginLeft:'auto', marginRight: 'auto' }}>      
-        <ul >
-          <li>Offers concentrations with an emphasis on scientific, applied, and business.</li>
-          <li>Data Science concentration will be offered starting in Fall 2020.</li>
-          <li>MS in Data Science will be offered as a new discipline of study in ISAT in Fall 2020.</li>
-          <li>2,000 IT jobs from private-public partnerships for our graduates.</li>
+      <div
+        style={{
+          width: "900px",
+          textAlign: "left",
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+      >
+        <ul>
+          <li>
+            Offers concentrations with an emphasis on scientific, applied, and
+            business.
+          </li>
+          <li>
+            Data Science concentration will be offered starting in Fall 2020.
+          </li>
+          <li>
+            MS in Data Science will be offered as a new discipline of study in
+            ISAT in Fall 2020.
+          </li>
+          <li>
+            2,000 IT jobs from private-public partnerships for our graduates.
+          </li>
           <li>Graduates have an average starting salary of over $52,000.</li>
-          <li>Offers a Masters Degree in Integrated Science and Technology with computer science and information technology concentrations.</li>
-          <li>Provides opportunities to connect with faculty for undergraduate research.</li>
+          <li>
+            Offers a Masters Degree in Integrated Science and Technology with
+            computer science and information technology concentrations.
+          </li>
+          <li>
+            Provides opportunities to connect with faculty for undergraduate
+            research.
+          </li>
         </ul>
       </div>
+      
       <h1 style={{ padding: 30 }}>Meet the Department Head!</h1>
       <p>Dr. John Burris</p>
       <ResponsivePlayer />
