@@ -18,7 +18,7 @@ const App = () => {
 
             {/* Header */}
             <div className="app-header">
-                <NavbarComp></NavbarComp>
+                <NavbarComp />
             </div>
 
             {/* Footer */}
