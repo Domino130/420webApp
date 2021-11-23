@@ -2,7 +2,6 @@ import * as React from 'react';
 import selu from './pics/selu.jpg'
 import envoc from './pics/slu_envoc_lab.jpg'
 import './aboutus.css'
-import { flexbox } from '@mui/system';
 import ResponsivePlayer from "../components/ResponsivePlayer";
 
 export default function AboutUs() {
